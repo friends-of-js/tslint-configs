@@ -1,0 +1,15 @@
+{
+  "extends": "./node_modules/@friends-of-js/typescript-configs/strict",
+  "compilerOptions": {
+    "target": "esnext",
+    "baseUrl": "./",
+    "paths": {
+      "@friends-of-js/tslint-configs": [
+        "src/index.ts"
+      ],
+      "@friends-of-js/tslint-configs/spec": [
+        "spec/index.ts"
+      ]
+    }
+  }
+}

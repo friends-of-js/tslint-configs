@@ -1,0 +1,13 @@
+version: 2
+plugins:
+  tslint:
+    enabled: false
+  fixme:
+    enabled: true
+  markdownlint:
+    enabled: true
+  nodesecurity:
+    enabled: true
+exclude_patterns:
+  - build/**/*
+  - spec/**/*

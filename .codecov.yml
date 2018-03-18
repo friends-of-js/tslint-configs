@@ -1,0 +1,15 @@
+coverage:
+  precision: 2
+  round: down
+  range: "99...100"
+ignore:
+  - spec/**/*
+  - index.js
+  - standard.js
+  - standard-latest.js
+  - strict.js
+  - strict-latest.js
+  - .huskyrc.json
+  - tsconfig.json
+  - tslint.json
+  - package.json
