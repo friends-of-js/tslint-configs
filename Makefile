@@ -1,4 +1,10 @@
-.PHONY: build build.module build.module.commonjs lint fix test test.module test.with.coverage coverage coverage.generate coverage.show coverage.codecov coverage.codacy coverage.codeclimate release.major release.minor release.patch release.pre commit clean
+.PHONY: build build.module build.module.commonjs
+.PHONY: lint fix
+.PHONY: test test.module test.with.coverage
+.PHONY: coverage coverage.generate coverage.show
+.PHONY: coverage.codecov coverage.codacy
+.PHONY: release.major release.minor release.patch release.pre
+.PHONY: commit clean
 
 all: build
 
@@ -40,9 +46,6 @@ coverage.codecov:
 
 coverage.codacy:
 	yarn run coverage.codacy
-
-coverage.codeclimate:
-	yarn run coverage.codeclimate
 
 release.major:
 	yarn run release.major
