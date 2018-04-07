@@ -3,7 +3,6 @@
 [![Build Status](https://travis-ci.org/friends-of-js/tslint-configs.svg?branch=master)](https://travis-ci.org/friends-of-js/tslint-configs)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/86f943cef7d400ad6b6a/test_coverage)](https://codeclimate.com/github/friends-of-js/tslint-configs/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/86f943cef7d400ad6b6a/maintainability)](https://codeclimate.com/github/friends-of-js/tslint-configs/maintainability)
-[![code coverage](https://img.shields.io/codecov/c/github/friends-of-js/tslint-configs.svg)](https://codecov.io/gh/friends-of-js/tslint-configs)
 [![license](https://img.shields.io/github/license/friends-of-js/tslint-configs.svg)](LICENSE)
 
 > Set of sharable tslint configs.
