@@ -53,6 +53,9 @@ Makefile
 .gitignore
 .travis.yml
 .codeclimate.yml
+.codecov.yml
+.codecov.yml
+.codacy.yml
 .nycrc
 tsconfig.json
 tslint.json
