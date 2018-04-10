@@ -20,7 +20,7 @@ module.exports = {
       true,
       { 'ignore-module': '(\\.css|\\.scss|\\.sass|\\.less|\\.styl|\\.html|\\.pug|\\.vue)$' }
     ],
-    'no-magic-numbers': [true, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    'no-magic-numbers': [true, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -0, -1, -2, -3, -4, -5, -6, -7, -8, -9, -10],
     'promise-function-async': true,
     'no-floating-promises': true,
     'no-object-literal-type-assertion': true,
