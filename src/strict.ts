@@ -84,7 +84,7 @@ module.exports = {
     'promise-must-complete': true,
     'no-empty-character-class': true,
     'no-extra-boolean-cast': true,
-    'valid-jsdoc': true,
+    'valid-jsdoc': false,
     'no-relative-imports': true,
     'early-exit': [true, { 'max-length': 1 }],
     'strict-type-predicates': true,
