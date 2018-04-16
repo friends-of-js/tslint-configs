@@ -49,10 +49,10 @@ module.exports = {
     'chai-prefer-contains-to-index-of': true,
     'chai-vague-errors': true,
     'function-name': [ true, {
-      "method-regex": "^[a-z][\w\d]+$",
-      "private-method-regex": "^[a-z][\w\d]+$",
-      "protected-method-regex": "^[a-z][\w\d]+$",
-      "static-method-regex": "^[a-z][\w\d]+$",
+      "method-regex": "^[?[\w\d.]+]?$",
+      "private-method-regex": "^[?[\w\d.]+]?$",
+      "protected-method-regex": "^[?[\w\d.]+]?$",
+      "static-method-regex": "^[?[\w\d.]+]?$",
       "function-regex": "^[a-z][\w\d]+$"
     }],
     'import-name': true,
