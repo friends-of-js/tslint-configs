@@ -48,7 +48,13 @@ module.exports = {
     'export-name': true,
     'chai-prefer-contains-to-index-of': true,
     'chai-vague-errors': true,
-    'function-name': true,
+    'function-name': [ true, {
+      "method-regex": "^[a-z][\w\d]+$",
+      "private-method-regex": "^[a-z][\w\d]+$",
+      "protected-method-regex": "^[a-z][\w\d]+$",
+      "static-method-regex": "^[a-z][\w\d]+$",
+      "function-regex": "^[a-z][\w\d]+$"
+    }],
     'import-name': true,
     'insecure-random': true,
     'jquery-deferred-must-complete': true,
