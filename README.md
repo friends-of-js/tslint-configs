@@ -37,6 +37,7 @@ in contrast to the standards configs,
 which almost does not include any checks.
 
 ## Usage
+
 Select the appropriate configuration type:
 
 ```js
