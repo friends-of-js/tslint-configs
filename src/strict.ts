@@ -114,7 +114,7 @@ module.exports = {
     'no-use-of-empty-return-value': true,
     'no-useless-increment': true,
     'no-useless-intersection': true,
-    'cognitive-complexity': [true, 5],
+    'cognitive-complexity': [true, 7],
     'no-accessor-field-mismatch': true,
     'no-array-delete': true,
     'no-duplicate-string': [true, 2],

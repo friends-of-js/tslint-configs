@@ -676,7 +676,7 @@ describe('strict config', () => {
 
       expect(errorCount).to.be.equal(1)
       expect(firstError.getRuleName()).to.be.equal('cognitive-complexity')
-      expect(firstError.getFailure()).to.be.equal('Refactor this function to reduce its Cognitive Complexity from 6 to the 5 allowed.')
+      expect(firstError.getFailure()).to.be.equal('Refactor this function to reduce its Cognitive Complexity from 8 to the 7 allowed.')
     })
   })
 
