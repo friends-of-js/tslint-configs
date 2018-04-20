@@ -185,12 +185,10 @@ describe('standard config', () => {
   })
 
   describe('unified-signatures', () => {
-    it('should emit error', () => {
-      const { errorCount, failures: [firstError] } = linter.lint('unified-signatures')
+    it('should not emit error', () => {
+      const { errorCount } = linter.lint('unified-signatures')
 
-      expect(errorCount).to.be.equal(1)
-      expect(firstError.getRuleName()).to.be.equal('unified-signatures')
-      expect(firstError.getFailure()).to.be.equal('These overloads can be combined into one signature taking `number | string`.')
+      expect(errorCount).to.be.equal(0)
     })
   })
 

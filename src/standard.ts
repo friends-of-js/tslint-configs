@@ -43,7 +43,7 @@ module.exports = {
     'no-var-requires': true,
     'only-arrow-functions': [true, 'allow-declarations', 'allow-named-functions'],
     'prefer-for-of': true,
-    'unified-signatures': true,
+    'unified-signatures': false,
     'await-promise': [true, 'Thenable'],
     'ban-comma-operator': true,
     curly: [true, 'ignore-same-line'],
