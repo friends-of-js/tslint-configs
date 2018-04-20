@@ -3,7 +3,7 @@
 (() => {
   class Test {
     salePrice(item) {
-      return (item.price - item.rebate);
+      return (item.price - item.rebate + item.price + item.price);
     }
   }
 })

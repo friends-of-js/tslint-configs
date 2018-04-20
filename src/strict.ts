@@ -100,7 +100,7 @@ module.exports = {
     'newspaper-order': false,
     'min-class-cohesion': [true, 0.5],
     'no-for-each-push': true,
-    'no-feature-envy': [true, 1, ['_']],
+    'no-feature-envy': [true, 2, ['_']],
     'no-map-without-usage': true,
     'no-complex-conditionals': true,
     'prefer-dry-conditionals': false,
