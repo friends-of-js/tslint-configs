@@ -103,7 +103,7 @@ module.exports = {
     'no-feature-envy': [true, 1, ['_']],
     'no-map-without-usage': true,
     'no-complex-conditionals': true,
-    'prefer-dry-conditionals': true,
+    'prefer-dry-conditionals': false,
     'no-commented-out-code': true,
     'no-all-duplicated-branches': true,
     'no-element-overwrite': true,
