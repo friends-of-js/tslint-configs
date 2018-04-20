@@ -184,7 +184,7 @@ describe('strict config', () => {
 
       expect(errorCount).to.be.equal(1)
       expect(firstError.getRuleName()).to.be.equal('cyclomatic-complexity')
-      expect(firstError.getFailure()).to.be.equal('The function test has a cyclomatic complexity of 7 which is higher than the threshold of 5')
+      expect(firstError.getFailure()).to.be.equal('The function test has a cyclomatic complexity of 11 which is higher than the threshold of 10')
     })
   })
 

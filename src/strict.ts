@@ -33,7 +33,7 @@ module.exports = {
     'prefer-conditional-expression': true,
     'switch-default': true,
     'triple-equals': true,
-    'cyclomatic-complexity': [true, 5],
+    'cyclomatic-complexity': [true, 10],
     'max-classes-per-file': [true, 1, 'exclude-class-expressions'],
     // max-file-line-count
     // no-default-export
