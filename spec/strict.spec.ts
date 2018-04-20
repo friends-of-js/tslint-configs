@@ -563,12 +563,10 @@ describe('strict config', () => {
   })
 
   describe('prefer-dry-conditionals', () => {
-    it('should emit error', () => {
-      const { errorCount, failures: [firstError] } = linter.lint('prefer-dry-conditionals')
+    it('should not emit error', () => {
+      const { errorCount } = linter.lint('prefer-dry-conditionals')
 
-      expect(errorCount).to.be.equal(1)
-      expect(firstError.getRuleName()).to.be.equal('prefer-dry-conditionals')
-      expect(firstError.getFailure()).to.match(/Don't Repeat Yourself in If statements./)
+      expect(errorCount).to.be.equal(0)
     })
   })
 
