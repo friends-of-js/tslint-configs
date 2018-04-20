@@ -60,16 +60,16 @@ module.exports = {
     'jquery-deferred-must-complete': true,
     'max-func-body-length': [
       true,
-      15,
+      20,
       {
         'arrow-body-length': 10,
-        'ctor-body-length': 15,
-        'func-body-length': 15,
-        'func-expression-body-length': 15,
+        'ctor-body-length': 20,
+        'func-body-length': 20,
+        'func-expression-body-length': 20,
         'ignore-comments': true,
         // tslint:disable:max-line-length
         'ignore-parameters-to-function-regex': '(describe|context|it|specify|before|after|beforeEach|afterEach|suite|test|suiteSetup|suiteTeardown|setup|teardown)',
-        'method-body-length': 15
+        'method-body-length': 20
       }
     ],
     'missing-jsdoc': true,
