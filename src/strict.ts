@@ -72,7 +72,7 @@ module.exports = {
         'method-body-length': 20
       }
     ],
-    'missing-jsdoc': true,
+    'missing-jsdoc': false,
     'mocha-avoid-only': true,
     'mocha-no-side-effect-code': true,
     'mocha-unneeded-done': true,
