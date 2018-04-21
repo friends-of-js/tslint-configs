@@ -24,10 +24,6 @@ There are 4 types of configs:
 1. standard-latest
 1. standard
 
-**_WARNING_**
-Prior to version 1.0.0 **_strict_** and **_standard_**
-configs can be changed in minor or patch releases!
-
 **_Strict-latest_** and **_standard-latest_** configs are constantly updated,
 including minor and patch releases.
 **_Strict_** and **_standard_** configs updated only on major release.
